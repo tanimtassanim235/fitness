@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Common style  */
+.background-color {
+  background-color: black;
+}
+.text-color {
+  color: #ffffff;
+}
+.description-text-color {
+  color: #e5e1e1;
+}
+#btn{
+  background-color: rgb(40, 40, 40);
+  padding: 12px 60px;
+  text-align: center;
+  border-radius: 18px;
+  margin-top: 15px;
+  color: azure;
+}
+.btn-primary {
+  background-color: rgb(225, 100, 5);
+  padding: 12px 60px;
+  text-align: center;
+  border-radius: 18px;
+  margin-top: 16px;
+}
+
+.btn-sec {
+  background-color: rgb(48, 47, 47);
+  padding: 12px 60px;
+  text-align: center;
+  border-radius: 18px;
+  margin-top: 16px;
+  color: aliceblue;
+}
+
+/* end common style */
+
+.banner{
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.banner-content{
+  width: 50%;
+}
+.banner-title{
+font-size: 4rem;
+font-weight: 700;
+color: cornsilk;
+}
+.banner-description{
+
+}
+.habit-section {
+  width: 75%;
+  margin: 0 auto;
+}
+.habit-section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.habit-section-description {
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.habit-section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movement {
+  margin: 12px;
+}
+.movement-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movement-image img {
+  border: 2px solid rgb(236, 244, 236);
+  border-radius: 50%;
+  width: 100%;
+}
+.movement-content {
+  margin-top: 30px;
+}
+.movement-content-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.movement-content-description {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+/* habit section end here */
+.run-section {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.run-section-content {
+  padding-left: 50px;
+  width: 50%;
+  margin-right: 20px;
+  padding-bottom: 14px;
+}
+.run-content-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.run-content-description {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: justify;
+}
+.run-image-container {
+  width: 50%;
+  margin-left: 80px;
+  padding: 18px;
+}
+.run-image-container img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* Run section end */
+
+/* BMI section start */
+
+.bmi-section {
+  width: 100%;
+  background-color: #3e3c3c;
+}
+.bmi-section-container {
+  width: 75%;
+  display: flex;
+}
+.bmi-chart {
+}
+.bmi-chart-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.bmi-calculator {
+}
+.bmi-calculator-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.bmi-calculator-description {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Footer section */
+footer {
+  padding-top: 20px;
+  margin: 0 auto;
+  background-color: #3e3c3c;
+  margin-top: 40px;
+}
+.footer-section {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  justify-items: flex-end;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.footer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: salmon;
+}
+.footer-description {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+}
+.service-title {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+/* .service{
+    margin-left: 100px;
+} */
+.footer-list {
+  color: #e5e1e1;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.hr-copyright {
+  color: #e5e1e1;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
