@@ -70,25 +70,44 @@ nav {
   font-size: 2.25rem;
   color: #e6533c;
 }
+nav ul li:first-child {
+  font-size: 1.1rem;
+  margin: 2px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+nav ul li:hover {
+  font-size: 1.1rem;
+  margin: 2px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
 nav ul {
   display: flex;
   align-items: center;
+  gap: 47px;
+  box-sizing: border-box;
+  border: 2px solid rgba(239, 201, 201, 0.1);
+  border-radius: 60px;
 }
 nav ul li {
   list-style: none;
-  margin-left: 47px;
+  padding: 8px 14px;
 }
 nav li a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #ffffff;
 }
 
 .banner {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
   width: 90%;
-  margin: 0 auto;
+  margin-left: 100px;
 }
 
 .banner-content {
@@ -205,9 +224,10 @@ nav li a {
 }
 .bmi-section-title {
   width: 50%;
-  margin: 14px auto;
   font-size: 2rem;
   font-weight: 900;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 .bmi-section-description {
   width: 50%;
@@ -224,9 +244,12 @@ nav li a {
   width: 90%;
   display: flex;
   margin: 0 auto;
+  margin-top: 16px;
 }
+
 .bmi-chart {
   width: 50%;
+  margin-top: 20px;
 }
 .bmi-chart-title {
   font-size: 1.4rem;
@@ -254,6 +277,7 @@ table td {
 }
 .bmi-calculator {
   width: 50%;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 .bmi-calculator-title {
@@ -279,45 +303,59 @@ select {
 
 /* Footer section */
 footer {
-  padding-top: 20px;
-  margin: 0 auto;
+  width: 100%;
   background: rgba(255, 255, 255, 0.1);
-  margin-top: 40px;
+  margin-top: 70px;
+  padding: 4px;
 }
-.footer-section {
+.footer-section-container {
   width: 90%;
-  margin: 0 auto;
-  display: grid;
-  justify-items: flex-end;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  padding-top: 20px;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 80px;
+  margin-left: 40px;
+}
+.fitness-footer{
+  width: 33.33%;
 }
 .footer-title {
-  font-size: 3rem;
-  font-weight: 800;
-  color: rgb(230, 83, 60);
+  font-size: 2.2rem;
+  color: #e6533c;
+  font-weight: 600;
+  margin-bottom: 18px;
 }
 .footer-description {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
   text-align: left;
 }
-.service-title {
-  color: #ffffff;
-  font-size: 1.4rem;
+.footer-list li{
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 12px;
+  list-style: none;
 }
-/* .service{
-    margin-left: 100px;
-} */
-.footer-list {
-  color: #e5e1e1;
-  font-size: 1rem;
-  font-weight: 500;
+.list-title{
+  font-size: 1.3rem;
+  text-align: left;
+  font-weight: 700;
+  margin-left: 40px;
 }
+.hr-style{
+  width: 75% ;
+  margin-top: 50px;
 
-.hr-copyright {
-  color: #e5e1e1;
-  font-size: 1.4rem;
-  font-weight: 600;
+}
+.copy{
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  color: rgba(231, 225, 225, 0.863);
+  margin: 36px 0px;
   text-align: center;
 }

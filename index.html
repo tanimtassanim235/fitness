@@ -18,7 +18,7 @@
       <nav>
         <h2 class="nav-title"><i>Fitness</i></h2>
         <ul class="text-color">
-          <li><a href="#">Home</a></li>
+          <li class="nav-btn"><a href="#">Home</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Sale</a></li>
           <li><a href="#">Log in</a></li>
@@ -155,58 +155,61 @@
               </p>
               <div class="inputs">
                 <input type="text" name="" id="" placeholder="Height/cm" />
-                <input type="text" name="" id="" placeholder="Weight/kg" /><br>
                 <input
-                  type="number"
+                  type="text"
                   name=""
                   id=""
-                  min="15"
-                  placeholder="Age"
-                />
+                  placeholder="Weight/kg"
+                /><br />
+                <input type="number" name="" id="" min="15" placeholder="Age" />
                 <select name="sex" id="">
-                  <option value="">Sex</option>
-                </select><br>
+                  <option value="">Sex</option></select
+                ><br />
                 <select name="activity" id="">
                   <option value="select an activity">Select an activity</option>
                 </select>
               </div>
-                <button class="btn-primary">Calculate</button>
+              <button class="btn-primary">Calculate</button>
             </div>
           </div>
         </div>
       </section>
       <!-- Not Finished -->
     </main>
-    <!-- footer section start here -->
+    <!-- footer  start here -->
     <footer>
-      <div class="justforlinkbreack">
-        <div class="footer-section">
-          <div>
-            <h1 class="footer-title"><i>Fitness</i></h1>
-            <p class="footer-description description-text-color">
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym. With hundreds of
-              professional workouts.
-            </p>
-          </div>
-          <div class="service">
-            <h4 class="service-title">Get Started</h4>
-            <h5 class="footer-list">Service</h5>
-            <h5 class="footer-list">Contact Us</h5>
-            <h5 class="footer-list">Affilite With Us</h5>
-            <h5 class="footer-list">About Us</h5>
-          </div>
-          <div class="platform">
-            <h4 class="service-title">Get Started</h4>
-            <h5 class="footer-list">Service</h5>
-            <h5 class="footer-list">Contact Us</h5>
-            <h5 class="footer-list">Affilite With Us</h5>
-            <h5 class="footer-list">About Us</h5>
-          </div>
+      <div>
+      <div class="footer-section-container">
+        <div class="fitness-footer">
+          <h1 class="footer-title"><i>Fitness</i></h1>
+          <p class="footer-description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts
+          </p>
         </div>
-        <hr style="width: 75%" />
-        <p class="hr-copyright">All Right Reserved &copy; Fitness 2024</p>
+        <div>
+          <h3 class="list-title text-color">Get Started</h3>
+          <ul class="footer-list">
+            <li>Service</li>
+            <li>Contact Us</li>
+            <li>Affiliate Program</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="list-title text-color">Get Started</h3>
+          <ul class="footer-list">
+            <li>Fitness</li>
+            <li>Platform</li>
+            <li>Workout Library</li>
+            <li>App Design</li>
+          </ul>
+        </div>
       </div>
+      <hr class="hr-style">
+      <h3 class="copy">All Right Reserved &COPY;Fitness 2024</h3>
+    </div>
     </footer>
   </body>
 </html>
