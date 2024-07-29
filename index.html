@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -20,7 +26,9 @@
       </nav>
       <div class="banner">
         <div class="banner-content">
-          <h1 class="banner-title">Get body in <span class="miama">shape</span> & stay healthy</h1>
+          <h1 class="banner-title text-color">
+            Get body in <span class="miama">shape</span> & stay healthy
+          </h1>
           <p class="banner-description description-text-color">
             A huge selection of health and fitness content, healthy recipes
             <br />
@@ -29,7 +37,7 @@
           <button class="btn-primary">Join Club Now!</button>
           <button class="btn-sec">Download App</button>
         </div>
-        <img src="images/banner-bg.png" alt="">
+        <img src="images/banner-bg.png" alt="" />
       </div>
     </header>
     <main>
@@ -86,6 +94,7 @@
           </div>
         </div>
       </section>
+      <!-- Run section start -->
       <section class="run-section">
         <div class="run-section-content">
           <h1 class="run-content-title text-color">
@@ -102,62 +111,78 @@
           <img src="images/run.jpg" alt="" />
         </div>
       </section>
+      <!-- run section end -->
       <section class="bmi-section">
+        <h1 class="bmi-section-title text-color">BMI Calculator</h1>
+        <p class="bmi-section-description description-text-color">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
+        </p>
         <div class="bmi-section-container">
-          <div class="bmi-chart">
-            <h1 class="bmi-chart-title text-color">BMI Index</h1>
-            <table>
-              <thead></thead>
-              <tr>
-                BMI
-              </tr>
-              <tbody>
-                1
-              </tbody>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <tr>
-                Weight Status
-              </tr>
-              <td>9</td>
-              <td>8</td>
-              <td>7</td>
-              <td>6</td>
-            </table>
-          </div>
-          <div class="bmi-calculator">
-            <h1 class="bmi-calculator-title text-color">Calculate your BMI</h1>
-            <p class="bmi-calculator-description description-text-color">
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym.
-            </p>
-            <form>
-              <input type="text" name="" id="" placeholder="Height/cm" />
-              <input type="text" name="" id="" placeholder="Weight/kg" />
-              <input
-                type="number"
-                name=""
-                id=""
-                min="15"
-                max="70"
-                placeholder="Age"
-              />
-              <select name="Sex" id="">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-              </select>
-            </form>
+          <div class="bmi-chart-container">
+            <div class="bmi-chart">
+              <h1 class="bmi-chart-title text-color">BMI Calculator Chart</h1>
+              <table>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
+            </div>
+            <div class="bmi-calculator">
+              <h1 class="bmi-calculator-title text-color">
+                Calculate your BMI
+              </h1>
+              <p class="bmi-calculator-description description-text-color">
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <div class="inputs">
+                <input type="text" name="" id="" placeholder="Height/cm" />
+                <input type="text" name="" id="" placeholder="Weight/kg" /><br>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  min="15"
+                  placeholder="Age"
+                />
+                <select name="sex" id="">
+                  <option value="">Sex</option>
+                </select><br>
+                <select name="activity" id="">
+                  <option value="select an activity">Select an activity</option>
+                </select>
+              </div>
+                <button class="btn-primary">Calculate</button>
+            </div>
           </div>
         </div>
       </section>
       <!-- Not Finished -->
     </main>
+    <!-- footer section start here -->
     <footer>
       <div class="justforlinkbreack">
         <div class="footer-section">
           <div>
-            <h1 class="footer-title text-color"><i>Fitness</i></h1>
+            <h1 class="footer-title"><i>Fitness</i></h1>
             <p class="footer-description description-text-color">
               We believe fitness should be accessible to everyone, everywhere,
               regardless of income or access to a gym. With hundreds of
