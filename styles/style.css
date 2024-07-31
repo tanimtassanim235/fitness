@@ -106,17 +106,24 @@
 .btn-content {
   text-align: left;
 }
+
 /* end common style */
+
 header {
   margin-bottom: 100px;
   position: relative;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(91, 90, 90, 0.342) 100%
+  );
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 100px;
+  margin: 0 130px;
 }
 .nav-title {
   font-weight: 800;
@@ -473,4 +480,76 @@ footer {
   color: rgba(231, 225, 225, 0.863);
   margin: 36px 0px;
   text-align: center;
+}
+
+.hambarger {
+  display: block;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 576px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  body  {
+    width: 100%;
+  }
+  nav > ul {
+    display: none;
+  }
+  nav {
+    margin: 0.8rem;
+  }
+
+  .hambarger i {
+    display: block;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .btn-responsive{
+    display: flex;
+  }
+  .btn-three{
+    right: 50%;
+  }
+  #btn-top-content{
+    top: 50%;
+  }
+  .habit-section-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .run-section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .run-section-content{
+    width: 90%;
+    margin: 1.4rem;
+    padding: 0.6rem 0.8rem;
+  }
+  .run-content-description {
+    margin: 0.9rem 0;
+    letter-spacing: 0.2px;
+  }
+  .btn-primary{
+    padding: 16px 130px;
+  }
+  .run-image-container{
+    margin: 1.4rem;
+    width: 90%;
+  }
 }
