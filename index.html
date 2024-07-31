@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
@@ -27,7 +28,7 @@
       <div class="banner">
         <div class="banner-content">
           <h1 class="banner-title text-color">
-            Get body in <span class="miama">shape</span> & stay healthy
+            Get body in <br><span class="miami">shape</span> & stay<br>healthy
           </h1>
           <p class="banner-description description-text-color">
             A huge selection of health and fitness content, healthy recipes
@@ -38,6 +39,19 @@
           <button class="btn-sec">Download App</button>
         </div>
         <img src="images/banner-bg.png" alt="" />
+        <button class="btn-three">
+          <div id="circle"></div>
+          <div class="btn-content">
+            <span id="tutorial-number">350+</span>
+            <br />
+            <span id="tutorial-type">Video tutorial</span>
+          </div>
+        </button>
+        <button id="btn-top-content">
+          <span id="video-number">500+</span>
+          <br />
+          <span id="sort-intro">Free Workout videos</span>
+        </button>
       </div>
     </header>
     <main>
@@ -174,42 +188,88 @@
           </div>
         </div>
       </section>
-      <!-- Not Finished -->
+      <!-- bmi section end -->
+      <!-- trainer section started here -->
+      <section class="team-section">
+        <h1 class="team-title">Meet Our Team</h1>
+        <p class="team-description">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
+        </p>
+        <div class="trainer">
+          <!-- trainer bg to set the background color > line-one  -->
+          <div class="line-one">
+            <div class="trainer-card">
+              <img src="images/trainer1.png" alt="" srcset="" />
+              <h3 class="trainer-name">Jerome Bell</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+            <div class="trainer-card">
+              <img src="images/trainer2.png" alt="" srcset="" />
+              <h3 class="trainer-name">Cameron V</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+            <div class="trainer-card">
+              <img src="images/trainer3.png" alt="" srcset="" />
+              <h3 class="trainer-name">Darrell Steward</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+          </div>
+          <!-- line two = row 2 -->
+          <div class="line-two">
+            <div class="trainer-card">
+              <img src="images/trainer4.png" alt="" srcset="" />
+              <h3 class="trainer-name">Dianne Russell</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+            <div class="trainer-card">
+              <img src="images/trainer5.png" alt="" srcset="" />
+              <h3 class="trainer-name">Cody Fisher</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+            <div class="trainer-card">
+              <img src="images/trainer6.png" alt="" srcset="" />
+              <h3 class="trainer-name">Theresa Webb</h3>
+              <p class="trainer-bio">Trainer</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer  start here -->
     <footer>
       <div>
-      <div class="footer-section-container">
-        <div class="fitness-footer">
-          <h1 class="footer-title"><i>Fitness</i></h1>
-          <p class="footer-description">
-            We believe fitness should be accessible to everyone, everywhere,
-            regardless of income or access to a gym. With hundreds of
-            professional workouts
-          </p>
+        <div class="footer-section-container">
+          <div class="fitness-footer">
+            <h1 class="footer-title"><i>Fitness</i></h1>
+            <p class="footer-description">
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym. With hundreds of
+              professional workouts
+            </p>
+          </div>
+          <div>
+            <h3 class="list-title text-color">Get Started</h3>
+            <ul class="footer-list">
+              <li>Service</li>
+              <li>Contact Us</li>
+              <li>Affiliate Program</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="list-title text-color">Get Started</h3>
+            <ul class="footer-list">
+              <li>Fitness</li>
+              <li>Platform</li>
+              <li>Workout Library</li>
+              <li>App Design</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h3 class="list-title text-color">Get Started</h3>
-          <ul class="footer-list">
-            <li>Service</li>
-            <li>Contact Us</li>
-            <li>Affiliate Program</li>
-            <li>About Us</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="list-title text-color">Get Started</h3>
-          <ul class="footer-list">
-            <li>Fitness</li>
-            <li>Platform</li>
-            <li>Workout Library</li>
-            <li>App Design</li>
-          </ul>
-        </div>
+        <hr class="hr-style" />
+        <h3 class="copy">All Right Reserved &COPY;Fitness 2024</h3>
       </div>
-      <hr class="hr-style">
-      <h3 class="copy">All Right Reserved &COPY;Fitness 2024</h3>
-    </div>
     </footer>
   </body>
 </html>

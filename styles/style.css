@@ -6,14 +6,13 @@
   font-style: normal;
 }
 
-/* @font-face{
-  font-family: "Miama";
-  src: url('https://fonts.cdnfonts.com/css/miama')
-  format("truetype");
-}
-.miama{
+.miami {
   font-family: "Miama", sans-serif;
-} */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
 /* Common style  */
 .background-color {
   background-color: black;
@@ -24,14 +23,53 @@
 .description-text-color {
   color: rgba(255, 255, 255, 0.5);
 }
-/* #btn {
-  background-color: rgb(40, 40, 40);
-  padding: 12px 60px;
-  text-align: center;
-  border-radius: 18px;
-  margin-top: 15px;
-  color: azure;
-} */
+
+#btn-top-content {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 3px;
+  text-align: left;
+  position: absolute;
+  top: 34%;
+  right: 0%;
+}
+
+#video-number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin: 10px 20px;
+}
+#sort-intro {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 10px 20px;
+}
+
+#circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(225, 100, 5);
+  margin-top: 12px;
+  margin-right: 10px;
+}
+#tutorial-number {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: rgb(250, 250, 249);
+}
+#tutorial-type {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(239, 237, 232, 0.65);
+  letter-spacing: 0.5px;
+}
 .btn-primary {
   font-size: 1.1rem;
   font-weight: 600;
@@ -53,10 +91,25 @@
   border: 1px solid rgb(255, 255, 255);
   margin-left: 14px;
 }
-
+.btn-three {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background: rgba(48, 48, 48, 0.54);
+  padding: 16px 22px;
+  display: flex;
+  position: absolute;
+  top: 78%;
+  right: 26%;
+}
+.btn-content {
+  text-align: left;
+}
 /* end common style */
 header {
   margin-bottom: 100px;
+  position: relative;
 }
 
 nav {
@@ -103,9 +156,9 @@ nav li a {
 
 .banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 150px;
+  gap: 50px;
   width: 90%;
   margin-left: 100px;
 }
@@ -114,8 +167,8 @@ nav li a {
   width: 50%;
 }
 .banner-title {
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 3.6rem;
+  font-weight: 800;
   margin-bottom: 30px;
   text-align: left;
 }
@@ -301,6 +354,66 @@ select {
   border: none;
 }
 
+/* team section  start*/
+
+.team-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+
+.team-section img {
+  width: 100%;
+  height: 300px;
+  filter: brightness(80%);
+  border-radius: 18px;
+}
+.team-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-description {
+  color: #3e3c3c;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+.trainer {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+}
+
+.line-one,
+.line-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 16px;
+  gap: 22px;
+}
+.trainer-card {
+  position: relative;
+}
+.trainer-name {
+  color: #ffffff;
+  position: absolute;
+  font-size: 1.3rem;
+  font-weight: 800;
+  top: 70%;
+  left: 5%;
+}
+
+.trainer-bio {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
 /* Footer section */
 footer {
   width: 100%;
@@ -314,11 +427,11 @@ footer {
   /* margin: 0 auto; */
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   gap: 80px;
   margin-left: 40px;
 }
-.fitness-footer{
+.fitness-footer {
   width: 33.33%;
 }
 .footer-title {
@@ -335,23 +448,22 @@ footer {
   letter-spacing: 0.3px;
   text-align: left;
 }
-.footer-list li{
+.footer-list li {
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 12px;
   list-style: none;
 }
-.list-title{
+.list-title {
   font-size: 1.3rem;
   text-align: left;
   font-weight: 700;
   margin-left: 40px;
 }
-.hr-style{
-  width: 75% ;
+.hr-style {
+  width: 75%;
   margin-top: 50px;
-
 }
-.copy{
+.copy {
   font-size: 0.9rem;
   letter-spacing: 0.3px;
   font-weight: 700;
