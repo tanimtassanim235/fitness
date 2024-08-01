@@ -172,6 +172,10 @@ nav li a {
 
 .banner-content {
   width: 50%;
+  border: 2px solid red;
+  margin: 0;
+  margin-top: -12px;
+  padding: -12px;
 }
 .banner-title {
   font-size: 3.6rem;
@@ -508,7 +512,7 @@ footer {
     color: #ffffff;
     font-size: 2rem;
   }
-  .banner {
+  .banner, .bmi-chart-container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -519,6 +523,13 @@ footer {
   }
   .btn-responsive{
     display: flex;
+  }
+  .btn-responsive > .btn-primary{
+    padding: 16px 26px;
+    margin-left: 20px;
+  }
+  .btn-responsive > .btn-sec{
+    padding: 16px;
   }
   .btn-three{
     right: 50%;
@@ -551,5 +562,40 @@ footer {
   .run-image-container{
     margin: 1.4rem;
     width: 90%;
+  }
+  .bmi-section-title, .bmi-section-description{
+    width: 90%;
+  }
+  .bmi-chart, .bmi-calculator{
+    width: 90%;
+    margin: 0;
+  }
+  .bmi-chart-title, .bmi-chart > table, .bmi-calculator-description, .bmi-calculator-title {
+    margin: 20px 0px;
+  }
+  .bmi-calculator > .btn-primary {
+    padding: 1rem 3rem;
+  }
+  .line-one, .line-two{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+    gap: 1rem;
+  }
+  .fitness-footer{
+    width: 100%;
+  }
+  .list-title{
+    margin: auto;
+  }
+  .hr-style{
+    width: 80%;
+    margin-left: 3.5rem;
+    margin-top: 1.4rem;
   }
 }
