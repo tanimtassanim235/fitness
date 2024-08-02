@@ -110,7 +110,6 @@
 /* end common style */
 
 header {
-  border: 2px solid aquamarine;
   margin-bottom: 100px;
   position: relative;
   background: linear-gradient(
@@ -164,7 +163,6 @@ nav li a {
 }
 
 .banner {
-  border: 2px solid whitesmoke;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -175,7 +173,6 @@ nav li a {
 
 .banner-content {
   width: 50%;
-  border: 2px solid red;
   margin: 0;
   margin-top: -12px;
   padding: -12px;
@@ -193,7 +190,6 @@ nav li a {
 .habit-section {
   width: 90%;
   margin: 0 auto;
-  border: 2px solid rgb(247, 202, 3);
 }
 .habit-section-title {
   font-size: 2rem;
@@ -245,7 +241,6 @@ nav li a {
 /* run section start here */
 .run-section {
   width: 90%;
-  border: 2px solid rgb(223, 239, 3);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -290,7 +285,6 @@ nav li a {
 
 .bmi-section {
   width: 100%;
-  border: 2px solid rgb(244, 2, 236);
 }
 .bmi-section-title {
   width: 50%;
@@ -298,11 +292,9 @@ nav li a {
   font-weight: 900;
   margin: 0 auto;
   margin-bottom: 10px;
-  border: 2px solid rgb(4, 171, 243);
 }
 .bmi-section-description {
   width: 50%;
-  border: 2px solid yellowgreen;
   font-size: 0.9rem;
   font-weight: 400;
   margin: 0 auto;
@@ -311,20 +303,17 @@ nav li a {
 .bmi-section-container {
   width: 100%;
   background-color: #3e3c3c;
-  border: 2px solid red;
 }
 .bmi-chart-container {
   width: 90%;
   display: flex;
   margin: 0 auto;
   margin-top: 16px;
-  border: 2px solid rgb(5, 222, 45);
 }
 
 .bmi-chart {
   width: 50%;
   margin-top: 20px;
-  border: 2px solid rgb(222, 6, 103);
 }
 .bmi-chart-title {
   font-size: 1.4rem;
@@ -354,7 +343,6 @@ table td {
   width: 50%;
   margin-top: 20px;
   margin-bottom: 30px;
-  border: 2px solid rgb(213, 178, 1);
 }
 .bmi-calculator-title {
   font-size: 1.4rem;
@@ -366,7 +354,6 @@ table td {
 }
 .inputs {
   width: 80%;
-  border: 2px solid honeydew;
   display: grid;
   grid-template-columns: repeat(2, 44%) 50%;
   margin-bottom: 30px;
@@ -388,7 +375,6 @@ select {
   width: 90%;
   margin: 0 auto;
   margin-top: 88px;
-  border: 2px solid greenyellow;
 }
 
 .team-section img {
@@ -445,11 +431,10 @@ select {
 }
 /* Footer section */
 footer {
-  width: 99%;
+  width: 100%;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 70px;
   padding: 4px;
-  border: 2px solid greenyellow;
 }
 .footer-section-container {
   width: 90%;
