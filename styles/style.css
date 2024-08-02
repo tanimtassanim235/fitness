@@ -174,7 +174,7 @@ nav li a {
 .banner-content {
   width: 50%;
   margin: 0;
-  margin-top: -12px;
+  margin-top: -80px;
   padding: -12px;
 }
 .banner-title {
@@ -355,7 +355,7 @@ table td {
 .inputs {
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(2, 44%) 50%;
+  grid-template-columns: repeat(2, 2fr) 2fr;
   margin-bottom: 30px;
 }
 
@@ -513,18 +513,27 @@ footer {
     color: #ffffff;
     font-size: 2rem;
   }
-  .banner, .bmi-chart-container {
+  .banner {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .bmi-chart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
   .banner-content {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    margin-left: 12px;
   }
   .btn-responsive{
     display: flex;
+    gap: 1rem;
   }
   .btn-responsive > .btn-primary{
     padding: 16px 26px;
@@ -567,8 +576,8 @@ footer {
     width: 90%;
   }
   .bmi-section{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     overflow: hidden;
   }
     .bmi-section-title, .bmi-section-description{
@@ -576,13 +585,16 @@ footer {
   }
   .bmi-chart, .bmi-calculator{
     width: 90%;
-    margin: 0;
+    margin: 1rem;
   }
   .bmi-chart-title, .bmi-chart > table, .bmi-calculator-description, .bmi-calculator-title {
     margin: 20px 0px;
   }
   .bmi-calculator > .btn-primary {
     padding: 1rem 3rem;
+  }
+  .team-description{
+    margin-top: 0.8rem;
   }
   .line-one, .line-two{
     display: grid;
