@@ -110,6 +110,7 @@
 /* end common style */
 
 header {
+  border: 2px solid aquamarine;
   margin-bottom: 100px;
   position: relative;
   background: linear-gradient(
@@ -117,6 +118,7 @@ header {
     rgb(17, 17, 17),
     rgba(91, 90, 90, 0.342) 100%
   );
+  overflow: hidden;
 }
 
 nav {
@@ -162,6 +164,7 @@ nav li a {
 }
 
 .banner {
+  border: 2px solid whitesmoke;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -190,6 +193,7 @@ nav li a {
 .habit-section {
   width: 90%;
   margin: 0 auto;
+  border: 2px solid rgb(247, 202, 3);
 }
 .habit-section-title {
   font-size: 2rem;
@@ -241,6 +245,7 @@ nav li a {
 /* run section start here */
 .run-section {
   width: 90%;
+  border: 2px solid rgb(223, 239, 3);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -285,6 +290,7 @@ nav li a {
 
 .bmi-section {
   width: 100%;
+  border: 2px solid rgb(244, 2, 236);
 }
 .bmi-section-title {
   width: 50%;
@@ -292,9 +298,11 @@ nav li a {
   font-weight: 900;
   margin: 0 auto;
   margin-bottom: 10px;
+  border: 2px solid rgb(4, 171, 243);
 }
 .bmi-section-description {
   width: 50%;
+  border: 2px solid yellowgreen;
   font-size: 0.9rem;
   font-weight: 400;
   margin: 0 auto;
@@ -303,17 +311,20 @@ nav li a {
 .bmi-section-container {
   width: 100%;
   background-color: #3e3c3c;
+  border: 2px solid red;
 }
 .bmi-chart-container {
   width: 90%;
   display: flex;
   margin: 0 auto;
   margin-top: 16px;
+  border: 2px solid rgb(5, 222, 45);
 }
 
 .bmi-chart {
   width: 50%;
   margin-top: 20px;
+  border: 2px solid rgb(222, 6, 103);
 }
 .bmi-chart-title {
   font-size: 1.4rem;
@@ -343,6 +354,7 @@ table td {
   width: 50%;
   margin-top: 20px;
   margin-bottom: 30px;
+  border: 2px solid rgb(213, 178, 1);
 }
 .bmi-calculator-title {
   font-size: 1.4rem;
@@ -353,11 +365,13 @@ table td {
   font-weight: 500;
 }
 .inputs {
-  width: 90%;
+  width: 80%;
+  border: 2px solid honeydew;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 44%) 50%;
   margin-bottom: 30px;
 }
+
 input,
 select {
   color: rgba(255, 255, 255, 0.6);
@@ -374,6 +388,7 @@ select {
   width: 90%;
   margin: 0 auto;
   margin-top: 88px;
+  border: 2px solid greenyellow;
 }
 
 .team-section img {
@@ -430,10 +445,11 @@ select {
 }
 /* Footer section */
 footer {
-  width: 100%;
+  width: 99%;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 70px;
   padding: 4px;
+  border: 2px solid greenyellow;
 }
 .footer-section-container {
   width: 90%;
@@ -518,8 +534,9 @@ footer {
     margin: 0 auto;
   }
   .banner-content {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+    overflow: hidden;
   }
   .btn-responsive{
     display: flex;
@@ -546,6 +563,7 @@ footer {
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    overflow: hidden;
   }
   .run-section-content{
     width: 90%;
@@ -563,7 +581,12 @@ footer {
     margin: 1.4rem;
     width: 90%;
   }
-  .bmi-section-title, .bmi-section-description{
+  .bmi-section{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+    .bmi-section-title, .bmi-section-description{
     width: 90%;
   }
   .bmi-chart, .bmi-calculator{
@@ -580,12 +603,17 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .footer {
+    width: 100%;
+  }
   .footer-section-container{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 2rem;
     gap: 1rem;
+    overflow: hidden;
   }
   .fitness-footer{
     width: 100%;
@@ -598,4 +626,9 @@ footer {
     margin-left: 3.5rem;
     margin-top: 1.4rem;
   }
+  /* select items  */
+  /* select {
+    display: grid;
+    grid-template-rows: 100%;
+  } */
 }
