@@ -353,7 +353,7 @@ table td {
   font-weight: 500;
 }
 .inputs {
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 2fr) 2fr;
   margin-bottom: 30px;
@@ -498,7 +498,7 @@ footer {
     padding: 0px;
     margin: 0px;
   }
-  body  {
+  body {
     width: 100%;
   }
   nav > ul {
@@ -531,35 +531,35 @@ footer {
     overflow: hidden;
     margin-left: 12px;
   }
-  .btn-responsive{
+  .btn-responsive {
     display: flex;
     gap: 1rem;
   }
-  .btn-responsive > .btn-primary{
+  .btn-responsive > .btn-primary {
     padding: 16px 26px;
     margin-left: 20px;
   }
-  .btn-responsive > .btn-sec{
+  .btn-responsive > .btn-sec {
     padding: 16px;
   }
-  .btn-three{
+  .btn-three {
     right: 50%;
   }
-  #btn-top-content{
+  #btn-top-content {
     top: 50%;
   }
   .habit-section-content {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .run-section{
+  .run-section {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     overflow: hidden;
   }
-  .run-section-content{
+  .run-section-content {
     width: 90%;
     margin: 1.4rem;
     padding: 0.6rem 0.8rem;
@@ -568,42 +568,55 @@ footer {
     margin: 0.9rem 0;
     letter-spacing: 0.2px;
   }
-  .btn-primary{
+  .btn-primary {
     padding: 16px 130px;
   }
-  .run-image-container{
+  .run-image-container {
     margin: 1.4rem;
     width: 90%;
   }
-  .bmi-section{
+  .bmi-section {
     width: 100%;
     margin: 0;
     overflow: hidden;
   }
-    .bmi-section-title, .bmi-section-description{
+  .bmi-section-title,
+  .bmi-section-description {
     width: 90%;
   }
-  .bmi-chart, .bmi-calculator{
+  .bmi-chart,
+  .bmi-calculator {
     width: 90%;
     margin: 1rem;
   }
-  .bmi-chart-title, .bmi-chart > table, .bmi-calculator-description, .bmi-calculator-title {
+  .bmi-chart-title,
+  .bmi-chart > table,
+  .bmi-calculator-description,
+  .bmi-calculator-title {
     margin: 20px 0px;
+  }
+  .inputs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%) 100%;
+
   }
   .bmi-calculator > .btn-primary {
     padding: 1rem 3rem;
   }
-  .team-description{
+  .team-description {
     margin-top: 0.8rem;
   }
-  .line-one, .line-two{
+  .line-one,
+  .line-two {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .footer {
-    width: 100%;
+  footer {
+    width:auto;
+    overflow: hidden;
   }
-  .footer-section-container{
+  .footer-section-container {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -612,20 +625,15 @@ footer {
     gap: 1rem;
     overflow: hidden;
   }
-  .fitness-footer{
-    width: 100%;
+  .fitness-footer {
+    width: 90%;
   }
-  .list-title{
+  .list-title {
     margin: auto;
   }
-  .hr-style{
+  .hr-style {
     width: 80%;
     margin-left: 3.5rem;
     margin-top: 1.4rem;
   }
-  /* select items  */
-  /* select {
-    display: grid;
-    grid-template-rows: 100%;
-  } */
 }
