@@ -133,20 +133,18 @@ nav {
 }
 nav ul li:first-child {
   font-size: 1.1rem;
-  margin: 2px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
 nav ul li:hover {
   font-size: 1.1rem;
-  margin: 2px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
 nav ul {
   display: flex;
   align-items: center;
-  gap: 47px;
+  gap: 46px;
   box-sizing: border-box;
   border: 2px solid rgba(239, 201, 201, 0.1);
   border-radius: 60px;
@@ -207,6 +205,7 @@ nav li a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  line-height: 1.6;
 }
 .habit-section-content {
   display: flex;
@@ -235,6 +234,7 @@ nav li a {
   font-weight: 400;
   text-align: center;
   margin-top: 6px;
+  line-height: 1.6;
 }
 /* habit section end here */
 
@@ -267,6 +267,7 @@ nav li a {
   font-weight: 500;
   text-align: left;
   margin-bottom: 35px;
+  line-height: 1.6;
 }
 .run-image-container {
   width: 45%;
@@ -299,6 +300,7 @@ nav li a {
   font-weight: 400;
   margin: 0 auto;
   margin-bottom: 70px;
+  line-height: 1.6;
 }
 .bmi-section-container {
   width: 100%;
@@ -351,6 +353,7 @@ table td {
 .bmi-calculator-description {
   font-size: 1rem;
   font-weight: 500;
+  line-height: 1.6;
 }
 .inputs {
   width: 100%;
@@ -391,7 +394,6 @@ select {
 }
 
 .team-description {
-  color: #3e3c3c;
   font-size: 1rem;
   font-weight: 500;
   text-align: center;
@@ -459,7 +461,7 @@ footer {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.6;
   letter-spacing: 0.3px;
   text-align: left;
 }
@@ -569,7 +571,7 @@ footer {
     letter-spacing: 0.2px;
   }
   .btn-primary {
-    padding: 16px 130px;
+    padding: 16px 127px;
   }
   .run-image-container {
     margin: 1.4rem;
