@@ -278,6 +278,8 @@ nav li a {
 .run-image-container img {
   width: 100%;
   border-radius: 16px;
+  object-fit: none;
+  object-position: 65% 28%;
 }
 
 /* Run section end */
@@ -566,6 +568,10 @@ footer {
     margin: 1.4rem;
     padding: 0.6rem 0.8rem;
   }
+  .run-image-container img {
+    width: 100%;
+    object-fit: cover;
+  }
   .run-content-description {
     margin: 0.9rem 0;
     letter-spacing: 0.2px;
@@ -601,7 +607,6 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 50%) 100%;
-
   }
   .bmi-calculator > .btn-primary {
     padding: 1rem 3rem;
@@ -615,7 +620,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   footer {
-    width:auto;
+    width: auto;
     overflow: hidden;
   }
   .footer-section-container {
@@ -632,6 +637,7 @@ footer {
   }
   .list-title {
     margin: auto;
+    margin-bottom: 1.2rem;
   }
   .hr-style {
     width: 80%;
