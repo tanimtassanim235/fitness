@@ -373,6 +373,9 @@ select {
   margin: 4px 2px;
   border: none;
 }
+.bmi-act {
+  grid-column: 1/ span 2;
+}
 
 /* team section  start*/
 
