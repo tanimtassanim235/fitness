@@ -148,6 +148,7 @@ nav ul {
   box-sizing: border-box;
   border: 2px solid rgba(239, 201, 201, 0.1);
   border-radius: 60px;
+  padding-left: 0px;
 }
 nav ul li {
   list-style: none;
@@ -374,7 +375,7 @@ select {
   border: none;
 }
 .bmi-act {
-  grid-column: 1/ span 2;
+  grid-column: 1 / span 2;
 }
 
 /* team section  start*/
